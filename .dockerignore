@@ -1,0 +1,8 @@
+# Build artifacts and runtime state — never bake into the image
+cpptube
+data/db.json
+storage/videos/
+storage/thumbs/
+*.o
+.git
+.gitignore

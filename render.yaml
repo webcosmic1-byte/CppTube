@@ -1,0 +1,22 @@
+# Render.com blueprint — one-click deploy
+# After pushing this repo to GitHub/GitLab, either:
+#   1. Use the "Deploy to Render" button, or
+#   2. New → Web Service → connect repo → Render auto-detects the Dockerfile.
+#
+# To persist uploads across restarts, attach a Render Disk (paid plans)
+# mounted at /mnt/data and set the env vars shown below.
+
+services:
+  - type: web
+    name: cpptube
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/videos
+    envVars:
+      - key: PORT
+        value: 8080
+      # Uncomment after attaching a Render Disk at /mnt/data:
+      # - key: CPPTUBE_STORAGE_DIR
+      #   value: /mnt/data/storage
+      # - key: CPPTUBE_DATA_DIR
+      #   value: /mnt/data/data

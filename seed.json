@@ -1,0 +1,44 @@
+[
+  {
+    "file": "big_buck_bunny.mp4",
+    "title": "Big Buck Bunny — Blender Open Movie",
+    "description": "The classic Blender Foundation short film, served straight from the C++ backend with HTTP byte-range streaming. A gentle giant bunny takes revenge on three bullying rodents.",
+    "channel": "Blender Foundation",
+    "duration": "1:00",
+    "views": 1543200,
+    "likes": 84210,
+    "comments": [
+      {
+        "author": "Aarav",
+        "text": "Still holds up in 2026. The rendering is gorgeous."
+      },
+      {
+        "author": "Priya",
+        "text": "Can't believe the backend serving this is a single C++ file. Respect."
+      },
+      {
+        "author": "DevOpsDave",
+        "text": "Range requests work perfectly, seeked all over the timeline with zero buffering."
+      }
+    ]
+  },
+  {
+    "file": "echo_hereweare.mp4",
+    "title": "Echo — Here We Are (360p demo)",
+    "description": "Demo clip used to test streaming playback. Uploaded to CppTube to show the watch page: view counter, likes, comments and recommendations all wired to the C++ API.",
+    "channel": "CppTube Demo",
+    "duration": "0:44",
+    "views": 98800,
+    "likes": 5320,
+    "comments": [
+      {
+        "author": "Meera",
+        "text": "The dark theme is spot on."
+      },
+      {
+        "author": "Rohan",
+        "text": "Tried uploading my own video — took seconds. Nice work!"
+      }
+    ]
+  }
+]

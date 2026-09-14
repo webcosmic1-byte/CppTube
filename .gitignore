@@ -1,0 +1,6 @@
+cpptube
+data/db.json
+storage/videos/*
+!storage/videos/.gitkeep
+storage/thumbs/*
+!storage/thumbs/.gitkeep
