@@ -13,7 +13,7 @@ HTML/CSS/JS, no build step.
 - **Upload** — drag-and-drop or file picker, with a live progress bar; files up to 2 GB
 - **Search** — searches titles, channels and descriptions
 - **Persistence** — everything stored in `data/db.json` (no external database needed)
-- **Streaming** — HTTP `Range` requests are honoured, so seeking in the player is instant
+- **Streaming** — HTTP `Range` requests are honoured, so seeking in the player is instant. Demo site: https://cpptube.onrender.com
 - **Thumbnails** — stable gradient SVG thumbnails generated per video (no ffmpeg needed)
 
 ## Deploy on Render.com
